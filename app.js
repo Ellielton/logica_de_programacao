@@ -4,6 +4,7 @@ console.log(numeroSecreto);
 
 //var chute armazena o que o usuário digitar no prompt.
 let chute;
+let tentativa = 1
 
 //Enquanto o chut não for igual ao numero secreto faça:
 while (chute != numeroSecreto) {
@@ -11,7 +12,7 @@ while (chute != numeroSecreto) {
   //condicional que compara se o chute é igual ao número secreto.
   if (chute == numeroSecreto) {
     
-    alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto}`);
+    alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativas.`;
     
   } else {
     if (chute > numeroSecreto) {
@@ -23,5 +24,7 @@ while (chute != numeroSecreto) {
       alert(`O numero secreto e maior que ${chute}`);
     
     }
+    //tentativas = tentativas+1;
   }
+  tentativa++;
 }
