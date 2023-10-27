@@ -6,4 +6,6 @@ let chute = prompt('Escolha um número entre 1 e 10');
 //condicional que compara se o chute é igual ao número secreto.
 if (chute == numeroSecreto) {
   console.log('Isso ai! Você descobriu o numero secreto é (5)');
+} else {
+  alert('Você errou :(')
 }
