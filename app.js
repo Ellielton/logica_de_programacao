@@ -1,5 +1,5 @@
 alert('Boas vindas ao jogo do número secreto!');
-let numeroSecreto = 5;
+let numeroSecreto = parseInt(Math.ramdom()*10 + 1);
 console.log(numeroSecreto);
 
 //var chute armazena o que o usuário digitar no prompt.
@@ -33,7 +33,7 @@ while (chute != numeroSecreto) {
 //como se lê: Se tentativas é maior que 1? Se sim o valor é a string tentativas ou ":" se não o valor é string tentativa
 let palavraTentativa = tentativa > 1 ? 'tentativas' : 'tentativa';
 alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} ${palavraTentativa}.`);
-
+https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript/task/137080
 //validado o alert no caso de tentativas ser maior que um pois a mensagem deve ser diferente se tentativas for = 1
 // if(tentativa > 1) {
 //   alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativas.`);
