@@ -11,9 +11,9 @@ while (chute != numeroSecreto) {
   chute = prompt('Escolha um número entre 1 e 10');
   //condicional que compara se o chute é igual ao número secreto.
   if (chute == numeroSecreto) {
-    
-    alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativas.`);
-    
+
+    break    
+
   } else {
     if (chute > numeroSecreto) {
       
@@ -27,4 +27,13 @@ while (chute != numeroSecreto) {
     //tentativas = tentativas+1;
   }
   tentativa++;
+}
+//validado o alert no caso de tentativas ser maior que um pois a mensagem deve ser diferente se tentativas for = 1
+if(tentativa > 1) {
+
+  alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativas.`);
+
+} else {
+  alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativa.`);
+
 }
