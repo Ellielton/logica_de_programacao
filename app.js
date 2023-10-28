@@ -12,7 +12,7 @@ while (chute != numeroSecreto) {
   //condicional que compara se o chute é igual ao número secreto.
   if (chute == numeroSecreto) {
     
-    alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativas.`;
+    alert(`Isso ai! Você descobriu o numero secreto é ${numeroSecreto} com ${tentativa} tentativas.`);
     
   } else {
     if (chute > numeroSecreto) {
