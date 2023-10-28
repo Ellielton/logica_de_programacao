@@ -1,5 +1,5 @@
 alert('Boas vindas ao jogo do número secreto!');
-let numeroSecreto = parseInt(Math.ramdom()*10 + 1);
+let numeroSecreto = parseInt(Math.random()*10 + 1);
 console.log(numeroSecreto);
 
 //var chute armazena o que o usuário digitar no prompt.
